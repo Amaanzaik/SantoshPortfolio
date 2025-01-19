@@ -993,6 +993,37 @@ main {
   transition: var(--transition-1);
 } */
 
+/* Button with id Gdrive */
+#Gdrive {
+  background-color: #1c1f24; /* Google Drive blue */
+  color: white;              /* White text */
+  border: 1px solid rgb(255, 255, 0);              /* Remove borders */
+  padding: 12px 24px;        /* Padding around the text */
+  font-size: 16px;           /* Font size */
+  cursor: pointer;          /* Pointer cursor on hover */
+  border-radius: 10px;        /* Rounded corners */
+  display: inline-block;     /* Keeps the button inline */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+}
+
+/* Hover effect */
+#Gdrive:hover {
+  background-color: #1c1f24; /* Darker blue when hovered */
+  transform: translateY(-2px); /* Slight lift on hover */
+}
+
+/* Active effect (when clicked) */
+#Gdrive:active {
+  background-color: #1c1f24; /* Even darker blue when clicked */
+  transform: translateY(2px); /* Button pressed down effect */
+}
+
+/* Focus effect */
+#Gdrive:focus {
+  outline: none;              /* Remove default focus outline */
+  box-shadow: 0 0 8px #1c1f24; /* Blue glow around button */
+}
+
 .project-item > a:hover .project-item-icon-box {
   --scale: 1;
   opacity: 1;
