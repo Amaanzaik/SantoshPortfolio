@@ -973,10 +973,10 @@ main {
   z-index: 1;
   transition: var(--transition-1);
 }
+/* 
+.project-item > a:hover .project-img::before { background: hsla(0, 0%, 0%, 0.5); } */
 
-.project-item > a:hover .project-img::before { background: hsla(0, 0%, 0%, 0.5); }
-
-.project-item-icon-box {
+/* .project-item-icon-box {
   --scale: 0.8;
 
   background: var(--jet);
@@ -991,7 +991,7 @@ main {
   opacity: 0;
   z-index: 1;
   transition: var(--transition-1);
-}
+} */
 
 .project-item > a:hover .project-item-icon-box {
   --scale: 1;
